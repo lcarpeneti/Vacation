@@ -9,8 +9,12 @@
   </head>
   <body>
     <div class="container">
-      <h1>Find Your Perfect Vacation Destination</h1>
-      <p>Wonderful news! You're planning a vacation.  What's that you say?  You don't know where to go?  Well, you've come to the right spot.  By answering just a few questions, we can help you find the perfect vacation destination.  Let's dive right in.</p>
+      <div class="jumbotron">
+        <h1>Find Your Perfect Vacation Destination</h1>
+      </div>
+      <div class="opening">
+        <p>Wonderful news! You're planning a vacation.  What's that you say?  You don't know where to go?  Well, you've come to the right spot.  By answering just a few questions, we can help you find the perfect vacation destination.  Let's dive right in.</p>
+      </div>
       <form id="quiz">
         <p>First, are you a beach, mountain, or city kind of person?  This will help us determine what type of vacation you are looking for?</p>
         <select id="location">
@@ -42,6 +46,9 @@
         </select>
         <button type="submit" class="btn">Where should I go?</button>
       </form>
+      <div id="output">
+        <p>Good news! You're headed to <span id="destination"></span>!  We hope you enjoy your trip.</p>
+      </div>
     </div>
   </body>
 </html>

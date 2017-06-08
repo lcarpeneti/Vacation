@@ -1,0 +1,19 @@
+#output {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+}
+.jumbotron {
+  margin: 12px;
+  border: 4px;
+  padding: 4px;
+}
+.opening{
+  text-align: center;
+}
+
+.btn {
+  display: block;
+}
