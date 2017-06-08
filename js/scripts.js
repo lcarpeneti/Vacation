@@ -118,6 +118,36 @@ $(document).ready(function() {
       destination = "Norway";
     } else if (location === "mountain" && pace === "adventure" && budget === "shoestring" && where === "international" && weather === "cold") {
       destination = "Mongolia";
+    } else if (location === "city" && pace === "adventure" && budget === "shoestring" && where === "international" && weather === "hot") {
+      destination = "Cairo, Egypt";
+    } else if (location === "city" && pace === "adventure" && budget === "shoestring" && where === "international" && weather === "cold") {
+      destination = "Pokhara, Nepal";
+    } else if (location === "city" && pace === "adventure" && budget === "shoestring" && where === "international" && weather === "moderate") {
+      destination = "Chiang Mai, Thailand";
+    } else if (location === "city" && pace === "adventure" && budget === "extravagant" && where === "international" && weather === "moderate") {
+      destination = "Zurich, Switzerland";
+    } else if (location === "city" && pace === "adventure" && budget === "extravagant" && where === "international" && weather === "cold") {
+      destination = "Reykjavik, Iceland";
+    } else if (location === "city" && pace === "adventure" && budget === "extravagant" && where === "international" && weather === "hot") {
+      destination = "Melbourne, Australia";
+    } else if (location === "city" && pace === "adventure" && budget === "modest" && where === "international" && weather === "hot") {
+      destination = "San Jose, Costa Rica";
+    } else if (location === "city" && pace === "adventure" && budget === "modest" && where === "international" && weather === "moderate") {
+      destination = "Taipei";
+    } else if (location === "city" && pace === "adventure" && budget === "modest" && where === "international" && weather === "cold") {
+      destination = "Prague, Czech Republic";
+    } else if (location === "city" && pace === "relax" && budget === "modest" && where === "international" && weather === "moderate") {
+      destination = "Santorini, Greece";
+    } else if (location === "city" && pace === "relax" && budget === "modest" && where === "international" && weather === "hot") {
+      destination = "Santorini, Greece";
+    } else if (location === "city" && pace === "relax" && budget === "modest" && where === "international" && weather === "cold") {
+      destination = "Montreal, Canada";
+    } else if (location === "city" && pace === "relax" && budget === "extravagant" && where === "international" && weather === "moderate") {
+      destination = "Paris, France";
+    } else if (location === "city" && pace === "relax" && budget === "extravagant" && where === "international" && weather === "cold") {
+      destination = "Helsinki, Finland";
+    } else if (location === "city" && pace === "relax" && budget === "extravagant" && where === "international" && weather === "hot") {
+      destination = "Queenstown, New Zealand";
     } else {
       destination = "Neverland";
     }
