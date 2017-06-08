@@ -11,11 +11,37 @@
     <div class="container">
       <h1>Find Your Perfect Vacation Destination</h1>
       <p>Wonderful news! You're planning a vacation.  What's that you say?  You don't know where to go?  Well, you've come to the right spot.  By answering just a few questions, we can help you find the perfect vacation destination.  Let's dive right in.</p>
-      <p>First, are you a beach, mountain, or city kind of person?  This will help us determine what type of vacation you are looking for?</p>
-      <p>Similarly, are you looking for an adventure or a chance to relax?</p>
-      <p>Next, what is your budget for this trip?</p>
-      <p>Are you looking looking to stay stateside or do you plan to use your passport on this trip?</p>
-      <p>Finally, what type of weather are you looking for?</p>
+      <form id="quiz">
+        <p>First, are you a beach, mountain, or city kind of person?  This will help us determine what type of vacation you are looking for?</p>
+        <select id="location">
+          <option value="beach">I like the beach.</option>
+          <option value="mountain">I like the mountains.</option>
+          <option value="city">I'm a city gal/fella.</option>
+        </select>
+        <p>Similarly, are you looking for an adventure or a chance to relax?</p>
+        <select id="pace">
+          <option value="adventure">I want to go adventuring!</option>
+          <option value="relax">I'm bringing reading material and plan to lounge.</option>
+        </select>
+        <p>Next, what is your budget for this trip?</p>
+        <select id="budget">
+          <option value="extravagant">The sky's the limit!</option>
+          <option value="modest">I like to have fun but not break the bank.</option>
+          <option value="shoestring">Shoestring is my modus operandi.</option>
+        </select>
+        <p>Are you looking looking to stay stateside or do you plan to use your passport on this trip?</p>
+        <select id="where">
+          <option value="stateside">I want to explore more of this country.</option>
+          <option value="international">My passport is ready for use!</option>
+        </select>
+        <p>Finally, what type of weather are you looking for?</p>
+        <select id="weather">
+          <option value="hot">I like to see that mercury rising.</option>
+          <option value="cold">I like the cold.</option>
+          <option value="moderate">A bit of both is always nice.</option>
+        </select>
+        <button type="submit" class="btn">Where should I go?</button>
+      </form>
     </div>
   </body>
 </html>
