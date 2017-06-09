@@ -15,7 +15,7 @@ $(document).ready(function() {
     } else if (location === "mountain" && pace === "adventure" && budget === "shoestring" && where === "stateside" && weather === "hot") {
       destination = "San Jancinto Mountains";
     } else if (location === "mountain" && pace === "adventure" && budget === "shoestring" && where === "stateside" && weather === "moderate") {
-      destination = "Appalachia";
+      destination = "Blue Ridge Mountains";
     } else if (location === "mountain" && pace === "adventure" && budget === "modest" && where === "stateside" && weather === "moderate") {
       destination = "Sedona";
     } else if (location === "mountain" && pace === "adventure" && budget === "extravagant" && where === "stateside" && weather === "moderate") {
