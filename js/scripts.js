@@ -114,9 +114,9 @@ $(document).ready(function() {
       destination = "the Italian Alps";
     } else if (location === "mountain" && pace === "adventure" && budget === "modest" && where === "international" && weather === "moderate") {
       destination = "Chiang Mai, Thailand";
-    } else if (location === "mountain" && pace === "adventure" && budget === shoestring && where === "international" && weather === "moderate") {
+    } else if (location === "mountain" && pace === "adventure" && budget === "shoestring" && where === "international" && weather === "moderate") {
       destination = "Chiang Mai, Thailand";
-    } else if (location === "mountain" && pace === "adventure" && budget === "moderate" && where === "international" && weather === "hot") {
+    } else if (location === "mountain" && pace === "adventure" && budget === "modest" && where === "international" && weather === "hot") {
       destination = "Chiang Mai, Thailand";
     } else if (location === "mountain" && pace === "adventure" && budget === "shoestring" && where === "international" && weather === "hot") {
       destination = "Chiang Mai, Thailand";
