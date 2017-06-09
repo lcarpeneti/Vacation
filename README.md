@@ -10,7 +10,7 @@ _This is a website where a user can answer questions about themselves and be giv
 
 ## Setup/Installation Requirements
 
-_There are no installation or setup requirements at this time._
+_You can visit my website at https://lcarpeneti.github.io/Vacation/_
 
 ## Known Bugs
 
